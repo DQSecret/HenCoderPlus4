@@ -1,6 +1,11 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.hencoder.demo'
+
+hencoder {
+    user 'Vera' // setUser('Vera')
+}
 
 android {
     compileSdkVersion 28
