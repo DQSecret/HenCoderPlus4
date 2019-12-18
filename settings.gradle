@@ -8,3 +8,4 @@ include ':24-thread', ':25-thread-interaction'
 include ':26-rxjava'
 include ':28_io'
 // include ':buildSrc' // 特殊项目,会执行两边,这里不用配置
+include ':36-arch'
